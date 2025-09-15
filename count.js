@@ -41,3 +41,6 @@ function checkNumber(input){
         console.log(message);
         rl.close();
     });
+
+//関数をエクスポート
+module.exports = checkNumber;
