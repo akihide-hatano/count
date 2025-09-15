@@ -16,5 +16,4 @@ describe('checkNumber',()=>{
     test('配列が入力された場合、エラーメッセージを返す', () => {
         expect(checkNumber('["a","1"]')).toBe('配列を入力しないでください');
     });
-
 })
