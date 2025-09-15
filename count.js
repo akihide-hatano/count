@@ -5,7 +5,6 @@ function checkNumber(input) {
   try {
     // 1. エラーが発生する可能性のあるJSON.parse()をtryブロック内に置く
     parsedInput = JSON.parse(input);
-    
     // 2. パースした結果が配列かどうかをチェック
     if (Array.isArray(parsedInput)) {
       return `配列を入力しないでください。`;
